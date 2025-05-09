@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "electron": "electron ."
+    "electron": "electron main.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "laboratory-classes-6": "file:"
