@@ -44,7 +44,7 @@ app.whenReady().then(() => {
   console.log('Server process started');
   serverProcess = exec('npm start', (error, stdout, stderr) => {
     if (error) {
-      console.error(`Ошибка запуска сервера: ${error.message}`);
+      console.error(`Server startup error: ${error.message}`);
     }
     if (stderr) {
       console.error(`stderr: ${stderr}`);
